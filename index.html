@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quizz App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    div.question {
+        border: 1px solid white;
+        background-color: white;
+        box-shadow: 1px 1px 1px white;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    body {
+        background: #eee;
+    }
+
+    form {
+        background-color: #6a6161;
+        border-radius: 10px;
+    }
+
+    p.question-marks {
+        position: absolute;
+        top: 19px;
+        right: 27px;
+    }
+
+    div.result-quizz {
+        width: 50%;
+        margin: auto;
+        border-radius: 20px;
+    }
+</style>
+
+<body>
+
+    <section id="quizz-container" class="py-5">
+
+        <h1 class="text-center pb-4">QUIZ APP</h1>
+        <div id="quizz" class="container"></div>
+    </section>
+
+    <script src="quizz.js"></script>
+</body>
+
+</html>
